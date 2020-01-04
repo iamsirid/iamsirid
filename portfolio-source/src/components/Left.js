@@ -35,7 +35,7 @@ const Left = props => {
         </div>
         <div className="website">
           <img src={websiteIcon} alt="website" />
-          <a href="http://iamsirid.ml">iamsirid.ml</a>
+          <a href="http://iamsirid.com">iamsirid.com</a>
         </div>
         <div className="address">
           <img src={addressIcon} alt="address" />
