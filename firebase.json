@@ -9,7 +9,7 @@
       }
     ],
 
-    "predeploy": "./build-portfolio.sh",
-    "postdeploy": "./rm-build-portfolio.sh"
+    "predeploy": "bash ./build-portfolio.sh",
+    "postdeploy": "bash ./rm-build-portfolio.sh"
   }
 }

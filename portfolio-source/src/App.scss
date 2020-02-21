@@ -1,33 +1,37 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
-@import url("https://fonts.googleapis.com/css?family=Kanit:100,300,400,700,900");
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Kanit:100,300,400,700,900');
 
-@import "res/styles/Detail.scss";
+@import 'res/styles/Detail.scss';
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
   background-image: linear-gradient(to right bottom, #a7abb3f3, #3e4349e0),
-    url("res/img/rit-bg.jpg");
+    url('res/img/rit-bg.jpg');
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   /* height: 100vh;s */
 }
 
-/* .alert {
+.announcement {
   background-color: rgba(255, 255, 0, 0.822);
   padding: 15px;
   margin: 10px;
   border-radius: 5px;
-  font-weight: bold;
+  // font-weight: bold;
   text-align: center;
-  font-size: 20px;
-} */
+  font-size: 17px;
+  a {
+    text-decoration: none;
+    color: rgb(32, 73, 148);
+  }
+}
 .main {
   display: flex;
   margin: 25px auto;
@@ -140,7 +144,7 @@ body {
   position: relative;
 }
 .right .projects .info::before {
-  content: "";
+  content: '';
   cursor: pointer;
   position: absolute;
   z-index: -1;
@@ -227,6 +231,6 @@ body {
 }
 
 .not-found {
-  font-family: "Kanit", "Lato", sans-serif;
+  font-family: 'Kanit', 'Lato', sans-serif;
   padding: 25px;
 }
