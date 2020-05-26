@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import ritAvatar from "../res/img/rit.png";
-import telIcon from "../res/img/icon/tel.png";
-import emailIcon from "../res/img/icon/email.png";
-import githubIcon from "../res/img/icon/github.png";
-import linkedinIcon from "../res/img/icon/linkedin.png";
-import websiteIcon from "../res/img/icon/website.png";
-import addressIcon from "../res/img/icon/address.png";
+import ritAvatar from '../res/img/rit.png';
+import telIcon from '../res/img/icon/tel.png';
+import emailIcon from '../res/img/icon/email.png';
+import githubIcon from '../res/img/icon/github.png';
+import linkedinIcon from '../res/img/icon/linkedin.png';
+import websiteIcon from '../res/img/icon/website.png';
+import addressIcon from '../res/img/icon/address.png';
 
 const Left = props => {
   return (
@@ -15,10 +15,10 @@ const Left = props => {
         <img src={ritAvatar} alt="rit" />
       </div>
       <div className="information">
-        <div className="tel">
+        {/* <div className="tel">
           <img src={telIcon} alt="tel" />
           <a href="tel:0859825437">0859825437</a>
-        </div>
+        </div> */}
         <div className="email">
           <img src={emailIcon} alt="email" />
           <a href="mailto:iamsirid@gmail.com">iamsirid@gmail.com</a>
@@ -37,11 +37,11 @@ const Left = props => {
           <img src={websiteIcon} alt="website" />
           <a href="http://iamsirid.com">iamsirid.com</a>
         </div>
-        <div className="address">
+        {/* <div className="address">
           <img src={addressIcon} alt="address" />
           476/6 Lat Phrao Rd., Saphan Song, Wang Thonglang, Bangkok 10310,
           Thailand
-        </div>
+        </div> */}
       </div>
     </div>
   );
