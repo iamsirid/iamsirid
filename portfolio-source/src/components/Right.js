@@ -1,23 +1,23 @@
-import React from "react";
-import chulaLearnhubIcon from "../res/img/icon/chula-learnhub.png";
-import futureskillIcon from "../res/img/icon/futureskill.png";
-import instanceShopIcon from "../res/img/icon/instanceshop.png";
-import pRpgIcon from "../res/img/icon/prpg.png";
-import smsToControlIcon from "../res/img/icon/smstocontrol.png";
-import firstUnityGameIcon from "../res/img/icon/funitygame.png";
-import thaiTvOnlineIcon from "../res/img/icon/thaitvonline.png";
+import React from 'react';
+import chulaLearnhubIcon from '../res/img/icon/chula-learnhub.png';
+import futureskillIcon from '../res/img/icon/futureskill.png';
+import instanceShopIcon from '../res/img/icon/instanceshop.png';
+import pRpgIcon from '../res/img/icon/prpg.png';
+import smsToControlIcon from '../res/img/icon/smstocontrol.png';
+import firstUnityGameIcon from '../res/img/icon/funitygame.png';
+import thaiTvOnlineIcon from '../res/img/icon/thaitvonline.png';
 
-import html5Icon from "../res/img/icon/HTML5_Logo_512.png";
-import cssIcon from "../res/img/icon/css.png";
-import jsIcon from "../res/img/icon/js.png";
-import reactIcon from "../res/img/icon/react-512.png";
-import reduxIcon from "../res/img/icon/redux-283024.png";
-import nodeIcon from "../res/img/icon/node.png";
-import mongodbIcon from "../res/img/icon/mongodb.png";
+import html5Icon from '../res/img/icon/HTML5_Logo_512.png';
+import cssIcon from '../res/img/icon/css.png';
+import jsIcon from '../res/img/icon/js.png';
+import reactIcon from '../res/img/icon/react-512.png';
+import reduxIcon from '../res/img/icon/redux-283024.png';
+import nodeIcon from '../res/img/icon/node.png';
+import mongodbIcon from '../res/img/icon/mongodb.png';
 
-import { useHistory } from "react-router-dom";
+import { useHistory } from 'react-router-dom';
 
-const Right = props => {
+const Right = (props) => {
   const history = useHistory();
   return (
     <div className="right">
@@ -31,7 +31,7 @@ const Right = props => {
           <div className="title">Chulalongkorn University</div>
           <div className="desc">
             August 2016 - Present: Bachelor in computer engineering <br />
-            GPAX 3.32 ( 6 Semesters )
+            {/* GPAX 3.32 ( 6 Semesters ) */}
           </div>
         </div>
         <div className="school">
@@ -46,7 +46,7 @@ const Right = props => {
         <div className="title-bar">Projects & Experiences</div>
         <div
           className="project"
-          onClick={() => history.push("/detail/chula-learnhub")}
+          onClick={() => history.push('/detail/chula-learnhub')}
         >
           <div className="icon">
             <img src={chulaLearnhubIcon} alt="" />
@@ -62,7 +62,7 @@ const Right = props => {
         </div>
         <div
           className="project"
-          onClick={() => history.push("/detail/futureskill")}
+          onClick={() => history.push('/detail/futureskill')}
         >
           <div className="icon">
             <img src={futureskillIcon} alt="" />
@@ -80,7 +80,7 @@ const Right = props => {
         </div>
         <div
           className="project"
-          onClick={() => history.push("/detail/instance-shop")}
+          onClick={() => history.push('/detail/instance-shop')}
         >
           <div className="icon">
             <img src={instanceShopIcon} alt="" />
@@ -92,7 +92,7 @@ const Right = props => {
             </div>
           </div>
         </div>
-        <div className="project" onClick={() => history.push("/detail/prpg")}>
+        <div className="project" onClick={() => history.push('/detail/prpg')}>
           <div className="icon">
             <img src={pRpgIcon} alt="" />
           </div>
@@ -105,7 +105,7 @@ const Right = props => {
         </div>
         <div
           className="project"
-          onClick={() => history.push("/detail/smstocontrol")}
+          onClick={() => history.push('/detail/smstocontrol')}
         >
           <div className="icon">
             <img src={smsToControlIcon} alt="" />
@@ -119,7 +119,7 @@ const Right = props => {
         </div>
         <div
           className="project"
-          onClick={() => history.push("/detail/funitygame")}
+          onClick={() => history.push('/detail/funitygame')}
         >
           <div className="icon">
             <img src={firstUnityGameIcon} alt="" />
@@ -133,7 +133,7 @@ const Right = props => {
         </div>
         <div
           className="project"
-          onClick={() => history.push("/detail/thaitvonline")}
+          onClick={() => history.push('/detail/thaitvonline')}
         >
           <div className="icon">
             <img src={thaiTvOnlineIcon} alt="" />
