@@ -23,14 +23,15 @@ const Right = (props) => {
     <div className="right">
       <div className="header">
         <div className="fullname">Sirid Rodsuteewat</div>
-        <div className="status">Computer Engineering Student</div>
+        <div className="status">Software Engineer</div>
       </div>
+
       <div className="education">
         <div className="title-bar">Education</div>
         <div className="school">
           <div className="title">Chulalongkorn University</div>
           <div className="desc">
-            August 2016 - Present: Bachelor in computer engineering <br />
+            August 2016 - 2020: Bachelor in computer engineering <br />
             {/* GPAX 3.32 ( 6 Semesters ) */}
           </div>
         </div>
@@ -52,9 +53,7 @@ const Right = (props) => {
             <img src={chulaLearnhubIcon} alt="" />
           </div>
           <div className="info">
-            <div className="title">
-              2020 - Chula LearnHub - Senior Project (In progress)
-            </div>
+            <div className="title">2020 - Chula LearnHub - Senior Project</div>
             <div className="desc">
               Online learning platforms for Chula students
             </div>

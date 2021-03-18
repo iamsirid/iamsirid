@@ -21,12 +21,12 @@ function App() {
   // );
   return (
     <Router basename="/portfolio">
-      <div className="announcement">
+      {/* <div className="announcement">
         This version of portfolio was used for job interviews in late 2019 and
         has not been updated since then. <br /> If you're interesting or want
         more information please contact me directly via{' '}
         <a href="https://www.linkedin.com/in/sirid-rodsuteewat">Linkedin</a>
-      </div>
+      </div> */}
 
       <div className="main">
         <Switch>

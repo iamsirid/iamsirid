@@ -1,10 +1,10 @@
-import React from "react";
-import chulaLearnHubPic1 from "../../res/img/screenshot/chulalearnhub1.png";
-import chulaLearnHubPic2 from "../../res/img/screenshot/chulalearnhub2.png";
-import chulaLearnHubPic3 from "../../res/img/screenshot/chulalearnhub3.png";
+import React from 'react';
+import chulaLearnHubPic1 from '../../res/img/screenshot/chulalearnhub1.png';
+import chulaLearnHubPic2 from '../../res/img/screenshot/chulalearnhub2.png';
+import chulaLearnHubPic3 from '../../res/img/screenshot/chulalearnhub3.png';
 
 function ChulaLearnHub(props) {
-  props.setTitle("Chula LearnHub - Senior Project");
+  props.setTitle('Chula LearnHub - Senior Project');
   return (
     <div>
       <br />
@@ -22,8 +22,8 @@ function ChulaLearnHub(props) {
         pdf, video, audio etc.) และใช้ระบบยืนยันตัวตนของนิสิตด้วยข้อมูลประจำตัว
         (รหัสประจำตัวและรหัสผ่าน) ผ่าน Chula SSO
         <br />
-        <br />
-        ป.ล. ตอนนี้ตัวโปรเจคยังอยู่ในแค่ช่วงเริ่มต้น ยังไม่เสร็จสมบูรณ์ดี
+        {/* <br /> */}
+        {/* ป.ล. ตอนนี้ตัวโปรเจคยังอยู่ในแค่ช่วงเริ่มต้น ยังไม่เสร็จสมบูรณ์ดี */}
       </p>
 
       <br />
