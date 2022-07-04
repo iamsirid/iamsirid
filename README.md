@@ -18,9 +18,13 @@ Skilled in Javascript/Typescript based development (React, Node.js).
 ![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5)
 ![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3)
 ![MUI](https://img.shields.io/badge/MUI-black.svg?style=flat-square&logo=mui)
+![Ant Design](https://img.shields.io/badge/Ant_Design-black.svg?style=flat-square&logo=antdesign)
 ![Styled Components](https://img.shields.io/badge/-styled--components-black?style=flat-square&logo=styled-components)
+![GraphQL](https://img.shields.io/badge/-GraphQL-black?style=flat-square&logo=graphql)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=flat-square&logo=postgresql)
 ![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+![Three.js](https://img.shields.io/badge/-Three.js-black?style=flat-square&logo=threedotjs)
+
 
 
